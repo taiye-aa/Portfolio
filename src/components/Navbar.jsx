@@ -49,8 +49,9 @@ const Navbar = () => {
                 <a className='text-xl font-bold text-primary flex items-center'  href="#hero">
                     <span className='relative z-10'>
                         <span className=''>
-                            Taiye
-                        </span> Portfolio
+                        <img src="/logo.svg" alt="T.dev logo" width="36" height="36" />
+
+                        </span>
                     </span>
                 </a>
                 <div className={cn('hidden md:flex space-x-8')}>
