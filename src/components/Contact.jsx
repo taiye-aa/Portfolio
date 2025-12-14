@@ -58,8 +58,8 @@ const Contact = () => {
                     <div className='pt-8'>
                         <h4 className='font-medium mb-4'>Connect with me</h4>
                         <div className='flex space-x-5 justify-center'>
-                            <a href="" className='hover:bg-secondary p-2 rounded-lg transition-all duration-300'><Linkedin/></a>
-                            <a href="" className='hover:bg-secondary p-2 rounded-lg transition-all duration-300'><Github/></a>
+                            <a href="https://www.linkedin.com/in/taiwo-abiola-ajayi/" className='hover:bg-secondary p-2 rounded-lg transition-all duration-300'><Linkedin/></a>
+                            <a href="https://github.com/taiye-aa" className='hover:bg-secondary p-2 rounded-lg transition-all duration-300'><Github/></a>
                         </div>
                     </div>
                 </div>

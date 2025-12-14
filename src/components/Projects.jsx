@@ -9,7 +9,7 @@ const projects = [
         image:"./SL.png",
         tags:["React","Tailwind","web3 Forms"],
         projectUrl:"https://taiye-aa.github.io/SL-Real-Estate-Website",
-        githubUrl:""
+        githubUrl:"https://github.com/taiye-aa/SL-Real-Estate-Website"
     },{
         id:2,
         title:"GetAway Vacation Website",
@@ -17,7 +17,7 @@ const projects = [
         image:"./getaway.png",
         tags:["HTML","CSS","Javascript"],
         projectUrl:"https://taiye-aa.github.io/Responsive-Vacation-Travel-site-template",
-        githubUrl:""
+        githubUrl:"https://github.com/taiye-aa/Responsive-Vacation-Travel-site-template"
     },
     {
         id:3,
@@ -26,7 +26,7 @@ const projects = [
         image:"./tasty.png",
         tags:["HTML","CSS","Javascript"],
         projectUrl:"https://taiye-aa.github.io/Responsive-Restaurant-Website-Design-for-Tasty",
-        githubUrl:""
+        githubUrl:"https://github.com/taiye-aa/Responsive-Restaurant-Website-Design-for-Tasty"
     }
 ]
 const Projects = () => {
@@ -71,7 +71,7 @@ const Projects = () => {
 
             </div>
             <div className='text-center mt-12'>
-                <a href="" target="_blank"className='cosmic-button w-fit flex items-center mx-auto gap-2'>
+                <a href="https://github.com/taiye-aa" target="_blank"className='cosmic-button w-fit flex items-center mx-auto gap-2'>
                     Check My GitHub <ArrowRight size={16}/>
                     </a>
 
