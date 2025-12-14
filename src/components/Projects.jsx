@@ -38,8 +38,8 @@ const Projects = () => {
 
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
                 {projects.map((project)=>(
-                    <div key={project.id} className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover">
-                        <div className='h-48 overflow-hidded'>
+                    <div key={project.id} className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover hover:border-primary">
+                        <div className='h-48 overflow-hidden'>
                             <img 
                             src={project.image}  
                             alt={project.title} 
@@ -54,8 +54,8 @@ const Projects = () => {
                             </div>
                             <h3 className='text-xl font-semibold mb-1'>{project.title}</h3>
                             <p className='text-primary-muted text-sm mb-4'>{project.description}</p>
-                            <div className='flex justify-between items-center'>
-                                <div className='flex space-x-3'>
+                            <div className='flex justify-between items-end'>
+                                <div className='flex space-x-3 '>
                                     <a href={project.projectUrl} target="_blank" className='text-primary hover:text-secondary transition-all duration-300'>
                                         <ExternalLink size={20}/>
                                     </a>
