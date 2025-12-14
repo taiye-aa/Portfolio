@@ -31,7 +31,7 @@ const Skills = () => {
             <button key={key}
             onClick={()=>setActiveCategory(category)}
             className={cn(
-              'px-5 py-2 rounded-full transition-all duration-300',
+              'px-5 py-2 rounded-full transition-all duration-300 cursor-pointer',
               activeCategory===category ? 'bg-secondary text-white' : 'bg-white/10 hover:bg-secondary/70')}>
               {category}</button>
           ))}
