@@ -77,7 +77,7 @@ const Contact = () => {
                             placeholder='your@email.com'/>
                         </div>
                         <div>
-                            <label htmlFor="name" className='block text-sm font-medium mb-2'>Your Name</label>
+                            <label htmlFor="name" className='block text-sm font-medium mb-2'>Write me a Message</label>
                             <textarea  name="message" id="message"  required className='w-full px-4 py-3 rounded-md border border-input bg-secondary resize-none focus:outline-hidden focus:ring-2 focus:ring-primary' 
                             placeholder="Hi I'm..."/>
                         </div>
