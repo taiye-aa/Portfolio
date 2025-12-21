@@ -8,7 +8,7 @@ const skills=[
   {name: "React", category: "Frontend"},
   {name: "Javascript", category: "Frontend"},
   {name: "Tailwind CSS", category: "Frontend"},
-//   {name: "TypeScript", category: "Frontend"},
+  {name: "TypeScript", category: "Frontend"},
   // {name: "Next.js", category: "Frontend"},
   {name: "SASS", category: "Frontend"},
   // {name: "Node.js", category: "Backend"},
