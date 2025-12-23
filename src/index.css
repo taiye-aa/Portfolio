@@ -105,8 +105,19 @@
 
 @utility text-glow {
   @apply relative;
-  text-shadow: 0 0 20px hsl(155, 30%, 55%);
+  /* text-shadow: 0 0 20px hsl(155, 30%, 55%); */
+  text-shadow: 0 0 4px hsl(155, 30%, 55%); 
+  transition: text-shadow 0.3s ease-in;
 }
+@utility text-glow-hover {
+  @apply relative;
+text-shadow: 
+    0 0 10px #fff,  /* Inner white glow */
+    0 0 20px #fff,
+    0 0 30px #fff,
+    0 0 40px hsl(155, 30%, 55%),  /* Outer cyan glow */
+    0 0 70px hsl(155, 30%, 55%),
+    0 0 100px hsl(155, 30%, 55%);}
 
 @utility card-hover {
   @apply transition-all ease-in-out duration-300 hover:scale-[1] hover:shadow-lg hover:border-primary ;

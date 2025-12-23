@@ -47,7 +47,7 @@ const Navbar = () => {
                 </a>
                 <div className={cn('hidden md:flex space-x-8')}>
                     {navItems.map((item, index)=>(
-                        <a key={index} href={item.href} className='text-primary font-normal hover:text-glow  transition-all duration-300'>
+                        <a key={index} href={item.href} className='text-primary font-normal hover:text-glow hover:text-glow-hover  transition-all duration-300'>
                             {item.name}</a>
                     ))}
                 </div>
