@@ -22,7 +22,7 @@ const About = () => {
                 </p>
                 <div className='flex flex-col sm:flex-row gap-4 pt-4 justify-center'>
                     <a href="#contact" className='cosmic-button'>Get in touch</a>
-                    <a href="./CV/ABIOLA AJAYI TAIWO CV.pdf" className='px-6 py-2 rounded-full border border-primary text-primary hover:bg-secondary transition-all duration-300'>Download my Cv</a>
+                    <a href="./CV/Abiola-Ajayi Taiwo Resume.pdf" download="Abiola-Ajayi Taiwo Resume.pdf" className='px-6 py-2 rounded-full border border-primary text-primary hover:bg-secondary transition-all duration-300'>Download my CV</a>
                 </div>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-3 gap-4 items-center mt-4'>
