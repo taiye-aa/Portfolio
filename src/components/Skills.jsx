@@ -29,7 +29,7 @@ const Skills = () => {
                   {frontendSkills.map((tech, key) => (
                     <span
                       key={key}
-                      className="bg-secondary text-white py-1 px-3 rounded-full text-sm hover:bg-primary/20 hover:text-glow
+                      className="bg-secondary text-white py-1 px-3 rounded-full text-sm hover:bg-primary/20 
                                     transition-all duration-300 ease-in cursor-pointer
                     "
                     >
@@ -45,7 +45,7 @@ const Skills = () => {
                   {QASKills.map((tech, key) => (
                     <span
                       key={key}
-                      className="bg-secondary text-white py-1 px-3 rounded-full text-sm hover:bg-primary/20 hover:text-glow
+                      className="bg-secondary text-white py-1 px-3 rounded-full text-sm hover:bg-primary/20 
                                     transition-all duration-300 ease-in cursor-pointer
                     "
                     >
