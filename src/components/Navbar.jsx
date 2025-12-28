@@ -18,7 +18,7 @@ const Navbar = () => {
 
     useEffect(()=>{
         const handleScroll =()=>{
-            setisScrolled(window.screenY >10)
+            setisScrolled(window.scrollY >10)
             
         }
         window.addEventListener("scroll", handleScroll);
@@ -30,7 +30,7 @@ const Navbar = () => {
 
   return (
     <nav className={cn("fixed w-full z-40 transition-all duration-300 py-5 h-20", 
-           " bg-transparent"
+           isScrolled && !isMenuOpen? 'bg-white/10 backdrop-blur-md':" bg-transparent"
         
     )}>
         <div className={cn("container flex justify-between space-x-10"
@@ -55,7 +55,7 @@ const Navbar = () => {
                     className='md:hidden p-2 text-primary z-100'
                     aria-label={isMenuOpen? "Close menu": "Open menu"}
                     >{isMenuOpen? <XIcon size={24}/>: <Menu size={24} /> }</button>
-                <div className={cn("fixed inset-0 backdrop-blur-md z-40 flex flex-col items-center justify-center",
+                <div className={cn("fixed top-0 left-0 right-0 h-screen bg-white/10 backdrop-blur-lg z-40 flex flex-col items-center justify-center",
                     "transition-all duration-300 md:hidden",
                     isMenuOpen? "opacity-100 pointer-events-auto":"opacity-0 pointer-events-none"
                 )}>
