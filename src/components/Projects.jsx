@@ -3,6 +3,15 @@ import React from 'react'
 
 const projects = [
     {
+        id:4,
+        title:"Midnight Garden",
+        description:"A responsive website showcasing the fictional book 'Midnight Garden'. Built with React, Tailwind CSS, and Typescript, it features book details, author bio, reader reviews, and a newsletter subscription form with a modern, elegant design.",
+        image:"./midnight.png",
+        tags:["React","Tailwind CSS","Typescript", "Javascript"],
+        projectUrl:"https://taiye-aa.github.io/Midnight-Garden/",
+        githubUrl:"https://github.com/taiye-aa/Midnight-Garden"
+    },
+    {
         id:1,
         title:"SL Real Estate Website",
         description:"A real estate website built using React for the frontend and Tailwind. It features property listings, and a contact form.",
@@ -28,7 +37,9 @@ const projects = [
         projectUrl:"https://taiye-aa.github.io/Responsive-Restaurant-Website-Design-for-Tasty",
         githubUrl:"https://github.com/taiye-aa/Responsive-Restaurant-Website-Design-for-Tasty"
     }
+    
 ]
+
 const Projects = () => {
   return (
     <section id='projects' className='py-24 px-4 relative '>
