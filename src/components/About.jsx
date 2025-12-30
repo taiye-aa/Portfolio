@@ -13,7 +13,7 @@ const About = () => {
             <div className='space-y-6'>
                 <h3 className='text-2xl font-semibold'>Passionate Web Developer & Quality Assurance Engineer</h3>
                 <p className='text-primary'>
-                    With over 2 years of experience in web development, I specialize in creating seamless digital experiences. 
+                    With over 1 year of experience in web development, I specialize in creating seamless digital experiences. 
                     My expertise lies in front-end development, where I bring designs to life with precision and creativity. 
                     I am proficient in modern frameworks enabling me to build responsive and user-friendly interfaces.
                 </p>
