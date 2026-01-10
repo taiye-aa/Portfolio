@@ -82,12 +82,12 @@ const Skills = () => {
                   </p>
                   </li>
 
-                <li><strong>National Human Rights Commission</strong>
+                <li><strong>Front-end Developer Intern at National Human Rights Commission</strong>
                   <p className="text-xs sm:text-sm">
                     Developed and maintained responsive web interfaces using React.js. 
                   </p>
                 </li>
-                <li><strong>AGES' N STAGES</strong>
+                <li><strong>Front-end Developer Intern at AGES' N STAGES</strong>
                   <p className="text-xs sm:text-sm">
                   Translated UI/UX designs, wireframes, and product requirements into fully functional, pixel-accurate web 
                   pages. 
