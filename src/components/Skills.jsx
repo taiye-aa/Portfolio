@@ -5,6 +5,7 @@
     "React",
     "HTML",
     "TypeScript",
+    "Redux",
     "TailwindCSS",
     "CSS",
     "JavaScript",
