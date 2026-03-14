@@ -10,6 +10,7 @@
     "CSS",
     "JavaScript",
     "SASS",
+    "Tanstack/React Query",
   ];
 
   const QASKills = ["Selenium", "PostMan", "Selenium Webdriver", "Katalon Studio"];

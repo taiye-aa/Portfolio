@@ -3,6 +3,15 @@ import React from 'react'
 
 const projects = [
     {
+        id:5,
+        title:"Gym Master (In Progress)",
+        description:"A data-driven web application designed to architect custom gym routines based on individual user profiles. It features dynamic filtering for physical constraints and equipment availability, a robust state management system for user preferences, and a high-performance, accessible UI designed for seamless use in a gym environment.",
+        image:"./development.png",
+        tags:["React","Tailwind CSS","Typescript", "React Router v7", "Tanstack/React Query", "Neon Auth"],
+        projectUrl:"",
+        githubUrl:"https://github.com/taiye-aa/gym-planner"
+    },
+    {
         id:4,
         title:"Midnight Garden",
         description:"A responsive website showcasing the fictional book 'Midnight Garden'. Built with React, Tailwind CSS, and Typescript, it features book details, author bio, reader reviews, and a newsletter subscription form with a modern, elegant design.",
@@ -45,8 +54,8 @@ const Projects = () => {
     <section id='projects' className='py-24 px-4 relative '>
         <div className='container mx-auto max-w-5xl'>
             <h2 className='text-3xl md:text-4xl font-bold mb-4 text-center'>Projects</h2>
-            <p className='text-center text-muted-primary mb-12 max-2-2xl mx-auto'>These are some of the Projects I have done</p>
-            <p className='text-center text-muted-primary mb-12 max-2-2xl mx-auto'>I have more projects being worked on so keep watch</p>
+            <p className='text-center text-muted-primary mb-12 max-w-2xl mx-auto'>These are some of my recent Projects</p>
+            <p className='text-center text-muted-primary mb-12 max-w-2xl mx-auto'>I have more projects being worked on so keep watch!</p>
 
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
                 {projects.map((project)=>(
@@ -61,17 +70,17 @@ const Projects = () => {
                         <div className='p-6'>
                             <div className='flex flex-wrap gap-2 mb-4 '>
                                 {project.tags.map((tag)=>(
-                                    <span className='text-sm bg-secondary/5 text-primary-muted px-3 py-1 rounded-full backdrop-blur-xs'>{tag}</span>
+                                    <span className='text-sm bg-secondary/60 backdrop-blur-md text-primary-muted px-3 py-1 rounded-full '>{tag}</span>
                                 ))}
                             </div>
                             <h3 className='text-xl font-semibold mb-1'>{project.title}</h3>
                             <p className='text-primary-muted text-sm mb-4'>{project.description}</p>
                             <div className='flex justify-between items-end'>
                                 <div className='flex space-x-3 '>
-                                    <a href={project.projectUrl} target="_blank" className='text-primary hover:text-secondary transition-all duration-300'>
+                                    <a href={project.projectUrl ? project.projectUrl : '#'} target={project.projectUrl?"_blank": ''} className='text-primary hover:text-secondary transition-all duration-300'>
                                         <ExternalLink size={20}/>
                                     </a>
-                                    <a href={project.githubUrl} target="_blank" className='text-primary hover:text-secondary transition-all duration-300'>
+                                    <a href={project.githubUrl ? project.githubUrl : '#'} target="_blank" className='text-primary hover:text-secondary transition-all duration-300' >
                                         <GithubIcon size={20}/>
                                     </a>
                                 </div>
