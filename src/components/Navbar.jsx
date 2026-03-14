@@ -29,7 +29,7 @@ const Navbar = () => {
     }, [])
 
   return (
-    <nav className={cn("fixed w-full z-40 transition-all duration-300 py-5 h-20", 
+    <nav className={cn("fixed w-full z-40 transition-all duration-300 py-5 h-15", 
            isScrolled && !isMenuOpen? 'bg-white/10 backdrop-blur-md':" bg-transparent"
         
     )}>

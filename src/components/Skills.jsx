@@ -10,6 +10,7 @@
     "CSS",
     "JavaScript",
     "SASS",
+    "Axios",
     "Tanstack/React Query",
   ];
 

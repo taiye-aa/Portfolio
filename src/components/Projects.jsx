@@ -57,9 +57,9 @@ const Projects = () => {
             <p className='text-center text-muted-primary mb-12 max-w-2xl mx-auto'>These are some of my recent Projects</p>
             <p className='text-center text-muted-primary mb-12 max-w-2xl mx-auto'>I have more projects being worked on so keep watch!</p>
 
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
                 {projects.map((project)=>(
-                    <div key={project.id} className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover hover:border-primary">
+                    <div key={project.id} className="group bg-card border rounded-lg overflow-hidden shadow-xs card-hover hover:border-primary">
                         <div className='h-48 overflow-hidden'>
                             <img 
                             src={project.image}  
